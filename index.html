@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christian's Website</title>
+    <base href="."/>
+  </head>
+  <body>
+
+    <canvas id="bg"></canvas>   
+
+    <main>
+
+      <header>
+        <h1>Christian Danoy</h1>
+        <p>Welcome to my website!</p>
+      </header>
+
+
+      <blockquote>
+        <p>A little bit about me</p>
+      </blockquote>
+
+      <section>
+        <h2>whoami</h2>
+        <p>Here are a few labels:</p>
+          <ul>
+            <li>IT Professional</li>
+            <li>Computer Science Enthusiast.</li>
+            <li>Music Production</li>
+            <li>Gamer</li>
+          </ul>
+
+        <p>I graduated from UTSA in 2020 for cyber-security. Cyber-security has always been a field I wanted to be a part of since I was a little boy. Computers have always been a mystery to me so I used college as the change to delve into them. Since grauation I have interned with a local startup where I recieve mentoring to further my computer science studies by developing a project of my choosing. My passion is music and gaming, so I made it my quest to recreate and develop a Digital Audio Workstation (like garageband!) With the right guidance I've chosen SuperpoweredSDK to develop on my MacOS.</p>
+      </section>
+
+      <section class="light">
+
+         <p>
+          I dub my DAW project the "audioBuilder", composed of three parts.</p>
+          <ol>
+            <li>The processor, coded in c++. Use CPU to modify audio file (.mp3) </li>
+            <li>The Controller, coded in JS. Running on Node env, the controller makes calls to the processor and store files in /tmp/ </li>
+            <li>The View, coded in JS with React / Redux and something called Fusion.</li>
+          </ol>
+          <p>
+          As you can see, it's pretty much MVC except the model is audio. All parts communicate with eachother using JSON. Repositories posted to github. </p>
+
+        <p>
+          This project has been almost two years now in the making! I'm currently fixing time delay effects on the audioBuild exec whilst getting a grasp of front-end development. These skills will be put to use for pen-testing, so I can deploy my own servers / websites and use Kali Linux to test for vulnerabilities.
+        </p>
+
+
+      </section>
+
+      <section class="left">
+        <h2>Certifications / Awards </h2>
+
+        <p>
+          301 SANS Networking Fundamentals
+          Eagle Scout Award
+        </p>
+
+        <h2>Technologies</h2>
+
+        <h3>Backend</h3>
+        <p>
+          C++, python, unity, NodeJS
+        </p>
+        <h3>Frontend</h3>
+        <p>
+          Javascript, html / css. React, Redux. 
+        </p>
+        <h3>Misc</h3>
+        <p>
+          Kali Linux, VM's, MacOs, Git, Slack, Microsoft Office, Adobe Suite.
+        </p>
+
+      </section>
+
+      <blockquote>
+        <p>Thanks for visiting!</p>
+      </blockquote>
+
+
+    </main>
+    
+    <script type="module" src="/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
