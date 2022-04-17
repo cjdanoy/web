@@ -14,7 +14,7 @@ const loader = new GLTFLoader();
 
 // I HAVE NO GLOBAL INSTANCE TO CALL GLB.SCENE
 // maybe it's because a mesh / render has to be made of it to be called from window document.
-/*
+
 const bishop = loader.load(
   // resource URL
   'bishopChess.glb',
@@ -46,7 +46,7 @@ const bishop = loader.load(
   }
 );
 
-*/
+
 
 
 const renderer = new THREE.WebGLRenderer({
@@ -140,9 +140,9 @@ jeff.position.x = 2;
 
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
-  moon.rotation.x += 0.05;
-  moon.rotation.y += 0.075;
-  moon.rotation.z += 0.05;
+  //moon.rotation.x += 0.05;
+  //moon.rotation.y += 0.075;
+  //moon.rotation.z += 0.05;
 
   jeff.rotation.y += 0.01;
   jeff.rotation.z += 0.01;
